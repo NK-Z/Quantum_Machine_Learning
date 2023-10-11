@@ -50,4 +50,30 @@ After training, the model's performance is evaluated on both the training and te
 - The dataset and code can be found in this repository.
 
 ---
+Secound notebook is "qnn.ipynb"
 
+Quantum Convolutional Neural Network (QCNN) for Image Classification
+Overview
+This code implements a Quantum Convolutional Neural Network (QCNN) to classify images as either "1" or "2" in Hindu-Arabic writing. The network is designed to handle both clean images and images with added noise.
+
+## Dependencies
+Python 3.x
+Libraries: qiskit, sklearn, matplotlib, numpy
+## Usage
+Run the provided code.
+The dataset will be generated, consisting of images of handwritten digits "1" and "2".
+The images will be split into training and testing sets.
+The QCNN will be trained on the training set.
+The accuracy of the model will be evaluated on the test set.
+## Code Structure
+generate_dataset(num_images): Generates a dataset of images and labels.
+conv_circuit(params): Defines a quantum circuit for the convolutional layer.
+conv_layer(num_qubits, param_prefix): Creates a quantum circuit for a convolutional layer.
+pool_circuit(params): Defines a quantum circuit for the pooling layer.
+pool_layer(sources, sinks, param_prefix): Creates a quantum circuit for a pooling layer.
+... (other functions for circuit generation and visualization)
+## Results
+The accuracy of the model on both the training and test sets will be displayed.
+Example images from the test set along with the QCNN predictions will be shown.
+## Additional Notes
+The initial parameters for the QCNN can be loaded from a JSON file named "good starting point.json".
