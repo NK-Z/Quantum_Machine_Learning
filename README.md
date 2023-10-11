@@ -1,5 +1,5 @@
 # Quantum Variational Classifier with 24 Parameters
-First notebook Train QNN (Quantum Neural Network)
+First notebook "Train_QNN.ipynb"(Quantum Neural Network)
 This notebook demonstrates the use of a Quantum Variational Classifier (VQC) with 24 trainable parameters. The dataset used is the Iris dataset, which consists of 150 samples, each with four features and three labels.
 
 ## Observations from Dataset Description
