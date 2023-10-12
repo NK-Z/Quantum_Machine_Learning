@@ -50,6 +50,9 @@ After training, the model's performance is evaluated on both the training and te
 - The dataset and code can be found in this repository.
 
 ---
+
+# Quantum Convolutional Neural Network
+
 Secound notebook is "qnn.ipynb"
 
 Quantum Convolutional Neural Network (QCNN) for Image Classification
